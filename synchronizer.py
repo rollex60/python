@@ -2,7 +2,7 @@ import argparse, os, hashlib, logging, shutil, schedule, signal, sys
 from datetime import datetime
 
 
-# Execute only once - Arguments
+# Execute only once-Arguments
 def clean_arg(arg):
     if arg[-1] == '/':
         arg = arg[0:-1]
